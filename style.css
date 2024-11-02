@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.rainbow-navbar ul {
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+    padding: 15px;
+    list-style-type: none;
+}
+
+.rainbow-navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.rainbow-header {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(90deg, violet, indigo, blue, green, yellow, orange, red);
+    color: white;
+}
+
+.hero-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: white;
+}
+
+.hero-section img {
+    width: 100%;
+    max-width: 600px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+.rainbow-footer {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+    color: white;
+}
+
+.social-icons img {
+    width: 30px;
+    margin: 0 10px;
+    transition: transform 0.3s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2);
+}
